@@ -1,0 +1,30 @@
+{
+  "name": "json-lite-api",
+  "description": "<i>\r   Introducing a streamlined API solution that makes creating APIs a breeze. With our platform, all you need to do is input your JSON data, and we'll take care of the rest. It's incredibly user-  friendly and can be a valuable tool for your project.\r </i>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.0",
+    "slugify": "^1.6.6",
+    "util": "^0.12.5",
+    "validator": "^13.9.0"
+  }
+}
